@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: url(pexels-pixabay-268533.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+a .header{
+    text-decoration: none;
+}
+.header{
+    position: fixed;
+    display: flex;
+    left: 0;
+    top: 0;
+    padding: 30px;
+    justify-content: space-between;
+    gap: 75px;
+    align-items: center;
+    margin-left: 100px;
+    display: none;
+
+}
+.logo{
+    color: orangered;
+    font-size: 30px;
+    font-weight: 600px;
+
+}
+a{
+    color: white;
+}
+a:hover{
+   color: orangered;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    opacity: 0.8;
+    padding: 5px;
+    border-radius: 10px;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
+}
+
+.search-input {
+    border: none;
+    outline: 2px solid orangered;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px 0 0 10px;
+    background: transparent;
+}
+
+.search-button {
+    border: 2px solid orangered;
+    background: orangered;
+    /* color: white; */
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+.about{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    gap: 150px;
+    padding: 90px 12% 0;
+    margin-left: 1px;
+    margin-bottom: 80px;
+
+
+}
+.web{
+    font-size: 30px;
+    line-height: 1.2;
+    margin-right: 150px;
+    /* margin-top: 10px; */
+
+}
+.web p{
+    color: white;
+    font-size: 19px;
+}
+.frm{
+    margin-right: 100px;
+    border: 2px solid black;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    height: 350px;
+    width: 450px;
+    padding: 20px;
+    padding-left: 30px;
+    align-items: center;
+    border-radius:10px 10px 10px 10px ;
+    opacity: 60%;
+}
+.frm h1{
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.frm h2{
+    font-size: 12px;
+    padding-left: 55px;
+}
+.frm h3{
+    color: white;
+    font-size: 10px;
+    padding-left: 65px;
+}
+.join{
+    background-color: orangered;
+    color: black;
+    border-radius:10px 10px 10px 10px ;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    border: none;
+}
+.frm .login{
+    border: none;
+    background: white;
+    color: orangered;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+    width: 200px;
+
+}
+.login:hover{
+    background-color:orangered;
+    color: white;
+}
+.frm .inp1{
+    border-bottom: 2px solid orangered;
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+}
+.frm .inp2{
+    border-bottom: 2px solid orangered;
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+}
+.frm .lgn{
+    border: none;
+    background: orangered;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+    width: 200px;
+
+}
+.lgn:hover{
+    background-color: white;
+    color: orangered;
+}
+i{
+    padding: 7px;
+    
+}
+@media screen and (max-width:1400px) {
+    .about{
+        /* margin-left: 15%; */
+        display: block;
+
+    }
+}
+@media screen and (max-width:1400px) {
+    .frm{
+        width:288px;
+    }
+    
+}
+@media screen and (max-width:990px) {
+     .web{
+        font-size: 10px;
+    }
+    .web p{
+        font-size: 10px;
+    }
+    
+}
+@media screen and (max-width:360px) {
+    .about{
+        font-size: 5px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .logo{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .header{
+        padding: 10px;
+        gap: 10px;
+        margin-top: 10px;
+
+    }
+    .frm{
+        width: 255px;
+        margin-top: 10px;
+    }
+}
