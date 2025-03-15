@@ -172,7 +172,7 @@ i{
     padding: 7px;
     
 }
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1024px) {
     .about{
         /* margin-left: 15%; */
         display: block;
